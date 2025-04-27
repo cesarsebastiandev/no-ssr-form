@@ -1,7 +1,7 @@
 [build]
 # base = "no-ssr-form"
   command = "ng build"
-  publish ="dist/browser"
+  publish ="dist/no-ssr-form/browser"
 
   [[redirects]]
   from = "/*"
